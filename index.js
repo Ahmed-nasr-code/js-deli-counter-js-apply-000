@@ -1,7 +1,7 @@
-var takeANumber = function(people,personname){ 
-  people.push(personname);
-var n = people.length ;
- var x = "Welcome, "+personname+". You are number "+n+" in line." 
+var n=0;
+var takeANumber = function(){
+n++; 
+ var x = "Welcome, . You are number "+n+" in line." 
   return x
   
   
